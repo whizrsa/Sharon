@@ -1,22 +1,19 @@
 // Typewriter — Elvis's promise letter
 (function typewriterEffect() {
-    const text = `My dearest Sharon,
+    const text = `My beautiful Sharon,
 
-Reading your letters brought tears to my eyes — happy tears. You have no idea how much your words mean to me.
+Every time I look at you, I am reminded of how incredibly beautiful my life has become since you became the center of it. You are my peace, my greatest inspiration, and the absolute love of my life. Loving you is the easiest, most natural thing my heart has ever done.
 
-When you told me you loved me on our movie date, my whole world changed. That kiss said everything, and when you finally found the words — "I love you, Elvis" — my heart knew it had found its home.
+You are the woman of my dreams—not in some distant fantasy, but here and now, in my reality. You are my partner in everything, my best friend, and the only person I want by my side as we navigate this world together. Your love brings so much light into my life, and just knowing you are mine gives me a sense of joy I can hardly put into words.
 
-I know about high school. I know you were afraid, and I know you kept my love letter all those years, hoping we'd find our way back to each other. We did. And I thank God every single day for that second chance.
+When I look at you, I see my entire future. I am not asking you to marry me today, but I want you to carry this promise deep in your heart: One day, when the time is right, I will get down on one knee and ask you to spend the rest of your life with me as my wife.
 
-You are the woman of my dreams, Sharon. Not someday — right now. Today. You are my partner, my best friend, my greatest love, and the future I pray for every night.
+Until that beautiful day comes, please know that you are already my everything. You already hold the space of a wife in my soul. I promise to cherish you, to protect our love, and to choose you over and over again, every single day.
 
-I am not asking you to marry me today. But I need you to hear this promise from the deepest part of my soul:
+I love you, Sharon. With my whole heart, today, tomorrow, and forever.
 
-I promise to marry you. One day, when the time is right, I will get down on one knee and ask you to be my wife. Until that day comes, I will love you, cherish you, and choose you — every single day.
-
-You already call me your husband, and you are already my wife in my heart. I can't wait for the whole world to know what we already know — that we belong to each other, and only to each other.
-
-I love you, Sharon. More than words could ever say.`;
+Yours always,
+Elvis`;
 
     const container = document.getElementById('typewriter-text');
     if (!container) return;
