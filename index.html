@@ -3,362 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Sharon — The Woman Of My Dreams</title>
+    <title>For Sharon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&family=Lato:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/sharon.css">
 </head>
 <body>
 
-    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="svg-sprite">
         <symbol id="icon-heart" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></symbol>
-        <symbol id="icon-heart-double" viewBox="0 0 24 24"><path fill="currentColor" d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></symbol>
-        <symbol id="icon-rose" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c-1 2-2.5 3.5-4 4.5C6 8 4 9.5 4 12c0 2.5 1.5 4.5 4 6.5 1.5 1 3 2 4 3.5 1-1.5 2.5-2.5 4-3.5 2.5-2 4-4 4-6.5 0-2.5-2-4-4-5.5C14.5 5.5 13 4 12 2zm0 4.5c.8 1.2 1.8 2.2 3 3-1.2.8-2.2 1.8-3 3-.8-1.2-1.8-2.2-3-3 1.2-.8 2.2-1.8 3-3z"/><circle fill="currentColor" opacity="0.6" cx="12" cy="12" r="2"/><path fill="currentColor" opacity="0.4" d="M12 18v4M10 20h4"/></symbol>
-        <symbol id="icon-envelope" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></symbol>
-        <symbol id="icon-sparkle" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5L12 2zm-7 13l1 3.5L9.5 19l-3.5 1-1-3.5L1.5 15l3.5-1L5 10.5 6 14l3.5 1zm14 0l1-3.5L22.5 15l-3.5-1L18 10.5l-1 3.5-3.5 1L16 19l3.5-1L21 14z"/></symbol>
-        <symbol id="icon-moon" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a7 7 0 1 1-8.9-8.9c.44-.06.9-.1 1.36-.1z"/></symbol>
-        <symbol id="icon-home" viewBox="0 0 24 24"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></symbol>
-        <symbol id="icon-book" viewBox="0 0 24 24"><path fill="currentColor" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></symbol>
-        <symbol id="icon-camera" viewBox="0 0 24 24"><path fill="currentColor" d="M12 15.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4z"/><path fill="currentColor" d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/></symbol>
-        <symbol id="icon-chevron-down" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></symbol>
-        <symbol id="icon-infinity" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 12c0-2.5 2-4.5 4.5-4.5S13.5 9 13.5 12s-1 4.5-3 4.5S6 14.5 6 12zm6 0c0-2.5 2-4.5 4.5-4.5S19.5 9 19.5 12s-1 4.5-3 4.5-4.5-1-4.5-4.5z"/></symbol>
-        <symbol id="icon-ring" viewBox="0 0 24 24"><circle fill="none" stroke="currentColor" stroke-width="1.5" cx="12" cy="14" r="7"/><path fill="currentColor" d="M12 3l1.5 3h-3L12 3zm0 0l-2 5h4l-2-5z"/><circle fill="currentColor" cx="12" cy="7" r="2"/></symbol>
-        <symbol id="icon-petal" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C10 6 6 8 4 12c2 4 6 6 8 10 2-4 6-6 8-10-2-4-6-6-8-10z" opacity="0.85"/></symbol>
-        <symbol id="icon-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
-        <symbol id="icon-kiss" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3C8 3 5 6 5 9.5c0 2 1 3.8 2.5 5L12 22l4.5-7.5C18 13.3 19 11.5 19 9.5 19 6 16 3 12 3zm0 5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z"/></symbol>
+        <symbol id="icon-arrow-down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 5v14M6 13l6 6 6-6"/></symbol>
     </svg>
 
-    <div class="ambient-orbs" aria-hidden="true">
-        <span class="orb orb-1"></span>
-        <span class="orb orb-2"></span>
-        <span class="orb orb-3"></span>
-    </div>
+    <header class="site-header" id="navbar">
+        <a href="#home" class="logo">Elvis <span>&</span> Sharon</a>
+        <nav class="site-nav">
+            <a href="#her-letters">Letters</a>
+            <a href="#our-story">Story</a>
+            <a href="#memories">Memories</a>
+            <a href="#my-promise">Promise</a>
+        </nav>
+    </header>
 
-    <div id="petals-container" aria-hidden="true"></div>
-    <div id="hearts-container"></div>
-
-    <nav id="navbar">
-        <a href="#home" class="nav-brand">
-            <svg class="icon icon-nav" width="22" height="22" aria-hidden="true"><use href="#icon-heart"/></svg>
-            <span>Elvis &amp; Sharon</span>
-        </a>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#her-letters">Her Letters</a></li>
-            <li><a href="#reasons">Why You</a></li>
-            <li><a href="#our-story">Our Story</a></li>
-            <li><a href="#memories">Memories</a></li>
-            <li><a href="#my-promise">My Promise</a></li>
-        </ul>
-    </nav>
-
+    <!-- HERO -->
     <section class="hero" id="home">
-        <div class="hero-bg-shimmer" aria-hidden="true"></div>
-        <div class="hero-layout">
-            <div class="hero-image-wrap reveal">
-                <div class="hero-frame">
-                    <img src="images/romantic kiss on the beach.jpeg" alt="Sharon and Elvis — a romantic kiss on the beach" class="hero-photo">
-                    <div class="hero-frame-ring" aria-hidden="true"></div>
-                </div>
-            </div>
-            <div class="hero-content">
-                <div class="hero-heart">
-                    <svg class="icon icon-hero-heart" width="64" height="64" aria-hidden="true"><use href="#icon-heart"/></svg>
-                </div>
-                <p class="hero-eyebrow">For the woman who changed everything</p>
-                <h1>Sharon, I Love You</h1>
-                <p class="hero-subtitle">The Woman Of My Dreams</p>
-                <p class="hero-message">
-                    You are not just the love of my life — you are my today, my tomorrow, and the future I pray for every single day.
-                    I promise you, my love: one day I will make you my wife. Until then, I choose you — every day, in every way.
-                </p>
-                <a href="#her-letters" class="btn-proposal btn-glow">
-                    <span>Read Her Heart</span>
-                    <svg class="icon" width="18" height="18" aria-hidden="true"><use href="#icon-envelope"/></svg>
-                </a>
-            </div>
+        <div class="hero-media">
+            <img src="images/romantic kiss on the beach.jpeg" alt="Sharon and Elvis">
+            <div class="hero-overlay"></div>
         </div>
-        <div class="scroll-indicator">
-            <span>Scroll Down</span>
-            <svg class="icon icon-scroll" width="28" height="28" aria-hidden="true"><use href="#icon-chevron-down"/></svg>
+        <div class="hero-inner reveal">
+            <p class="eyebrow">A love letter, written in moments</p>
+            <h1>Sharon,<br><em>I Love You</em></h1>
+            <p class="hero-lead">You are the woman of my dreams. I promise to marry you one day — until then, I choose you every single day.</p>
+            <a href="#her-letters" class="btn-primary">Read her words</a>
         </div>
+        <a href="#her-letters" class="scroll-hint" aria-label="Scroll down">
+            <svg width="24" height="24"><use href="#icon-arrow-down"/></svg>
+        </a>
     </section>
 
-    <section id="her-letters">
-        <div class="section-header reveal">
-            <h2 class="section-title">Letters From Her Heart</h2>
-            <div class="section-divider">
-                <svg class="icon" width="22" height="22"><use href="#icon-envelope"/></svg>
-                <svg class="icon icon-pulse" width="18" height="18"><use href="#icon-heart"/></svg>
-                <svg class="icon" width="22" height="22"><use href="#icon-envelope"/></svg>
-            </div>
+    <!-- LETTERS -->
+    <section class="section letters-section" id="her-letters">
+        <div class="section-intro reveal">
+            <span class="section-label">From her heart</span>
+            <h2>Letters From Sharon</h2>
+            <div class="gold-line"></div>
         </div>
 
-        <div class="letters-grid">
-            <article class="letter-container reveal">
-                <div class="letter-seal" aria-hidden="true">
-                    <svg class="icon" width="36" height="36"><use href="#icon-envelope"/></svg>
-                </div>
-                <span class="letter-label">The First Time She Said It</span>
-                <div class="letter-text letter-static">
+        <article class="letter-block reveal">
+            <div class="letter-paper">
+                <span class="letter-tag">The first time she said it</span>
+                <div class="letter-body">
                     <p>On our movie date, I wanted to tell you something important — something I've been wanting to say for a long time — but I couldn't find the courage in that moment. In place of that, I asked if I could kiss you because I thought through my kiss I could convey my deep feelings.</p>
-                    <p><strong>I love you, Elvis.</strong> I think I have for much longer than I ever admitted to myself.</p>
+                    <p class="pull-quote">"I love you, Elvis. I think I have for much longer than I ever admitted to myself."</p>
                     <p>Back in high school, I was afraid of the unknown, even though deep down I always knew I wanted you. I sabotaged something beautiful because I didn't feel good enough at the time. But I thank God for giving me a second chance and bringing us back to each other.</p>
                     <p>I kept your love letter because a part of me always hoped our paths would cross again.</p>
                     <p>I love you for being you — for being a steady pillar in my life all these years, first as a friend I didn't know I needed, and now as my partner. I love your kindness, your honesty, your sincerity.</p>
                     <p>Lately, all I dream and pray about is a good future for us — a future where we grow together, build together, and choose each other every day. I want you in my life as my forever partner, and I can't wait for the day that becomes our reality.</p>
                     <p>I really do love you, Elvis. I thought I could wait until I had the courage to say it face to face, but my heart is too full to keep it in any longer.</p>
                 </div>
-                <div class="letter-image">
-                    <img src="images/movie date kiss.jpeg" alt="Our movie date kiss">
-                </div>
-                <div class="letter-signature">
-                    <span>— Sharon</span>
-                    <svg class="icon" width="20" height="20"><use href="#icon-heart"/></svg>
-                </div>
-            </article>
+                <p class="letter-sign">— Sharon</p>
+            </div>
+            <figure class="letter-figure">
+                <img src="images/movie date kiss.jpeg" alt="Our movie date kiss">
+                <figcaption>Our movie date</figcaption>
+            </figure>
+        </article>
 
-            <article class="letter-container reveal reveal-delay-1">
-                <div class="letter-seal" aria-hidden="true">
-                    <svg class="icon" width="36" height="36"><use href="#icon-heart-double"/></svg>
-                </div>
-                <span class="letter-label">Her Promise To Me</span>
-                <div class="letter-text letter-static">
+        <article class="letter-block letter-block--reverse reveal">
+            <div class="letter-paper">
+                <span class="letter-tag">Her promise to me</span>
+                <div class="letter-body">
                     <p>You're just the sweetest. Sometimes I ask myself what I've done in my previous life to be this blessed and lucky to have you in my life.</p>
-                    <p><strong>I love you more than words could convey and I want to spend the rest of my life with you.</strong> I only see a future with you in it and no one else, and I wouldn't have it any other way.</p>
-                    <p>You understand me and love me in ways I never thought possible. You bring a sense of peace and calmness with you, and I feel the safest in your presence.</p>
+                    <p class="pull-quote">"I love you more than words could convey and I want to spend the rest of my life with you."</p>
+                    <p>I only see a future with you in it and no one else, and I wouldn't have it any other way. You understand me and love me in ways I never thought possible. You bring a sense of peace and calmness with you, and I feel the safest in your presence.</p>
                     <p>Just so you know — I'm here to stay, to love you and to be loved by you. I'm your wife and you're my husband. I can't wait for the whole world to officially know that I only belong to you and you belong to me only.</p>
                     <p>I can't wait to wake up next to you, for you to make love to me and only me day and night, to only be claimed by you and receive all those amazing hugs and kisses from you.</p>
                     <p>I can't wait to officially become one with you, because I know and feel that God has definitely blessed this union.</p>
                     <p><strong>I love you so much.</strong></p>
                 </div>
-                <div class="letter-image">
-                    <img src="images/beach date.jpeg" alt="Our beach date">
+                <p class="letter-sign">— Sharon, forever yours</p>
+            </div>
+            <figure class="letter-figure">
+                <img src="images/beach date.jpeg" alt="Our beach date">
+                <figcaption>Beach days with you</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <!-- STORY -->
+    <section class="section story-section" id="our-story">
+        <div class="section-intro reveal">
+            <span class="section-label">Our journey</span>
+            <h2>The Story of Us</h2>
+            <div class="gold-line"></div>
+        </div>
+
+        <div class="story-chapters">
+            <article class="chapter reveal">
+                <div class="chapter-image">
+                    <img src="images/first date.jpeg" alt="High school">
                 </div>
-                <div class="letter-signature">
-                    <span>— Sharon, Forever Yours</span>
-                    <svg class="icon" width="20" height="20"><use href="#icon-heart"/></svg>
+                <div class="chapter-text">
+                    <span class="chapter-num">01</span>
+                    <span class="chapter-date">High School</span>
+                    <h3>A Love That Started Young</h3>
+                    <p>Even back then, deep down, we both knew. You were afraid of the unknown and didn't feel good enough — but a part of you always knew you wanted me. And I never stopped caring.</p>
+                </div>
+            </article>
+
+            <article class="chapter chapter--flip reveal">
+                <div class="chapter-image">
+                    <img src="images/park date.jpeg" alt="Second chance">
+                </div>
+                <div class="chapter-text">
+                    <span class="chapter-num">02</span>
+                    <span class="chapter-date">A Second Chance</span>
+                    <h3>God Brought Us Back</h3>
+                    <p>You kept my love letter because a part of you always hoped our paths would cross again. And they did. I thank God every day for giving us this beautiful second chance.</p>
+                </div>
+            </article>
+
+            <article class="chapter reveal">
+                <div class="chapter-image">
+                    <img src="images/movie date kiss.jpeg" alt="Movie date">
+                </div>
+                <div class="chapter-text">
+                    <span class="chapter-num">03</span>
+                    <span class="chapter-date">Our Movie Date</span>
+                    <h3>When She Told Me She Loved Me</h3>
+                    <p>You couldn't find the words — so you asked if you could kiss me instead. Then you told me: <em>"I love you, Elvis."</em> My heart has belonged to you ever since.</p>
+                </div>
+            </article>
+
+            <article class="chapter chapter--flip reveal">
+                <div class="chapter-image">
+                    <img src="images/beach date.jpeg" alt="Us today">
+                </div>
+                <div class="chapter-text">
+                    <span class="chapter-num">04</span>
+                    <span class="chapter-date">Us, Today</span>
+                    <h3>Partners In Every Way</h3>
+                    <p>From friends to partners — you are my steady pillar, my best friend, my greatest love. We dream together, pray together, and choose each other every single day.</p>
+                </div>
+            </article>
+
+            <article class="chapter reveal">
+                <div class="chapter-image">
+                    <img src="images/friends wedding.jpeg" alt="Our future">
+                </div>
+                <div class="chapter-text">
+                    <span class="chapter-num">05</span>
+                    <span class="chapter-date">Our Future</span>
+                    <h3>Forever Starts With A Promise</h3>
+                    <p>We dream of a future where we grow together, build together, and wake up beside each other every morning. I can't wait for the day the whole world knows — you are mine, and I am yours.</p>
                 </div>
             </article>
         </div>
     </section>
 
-    <section id="reasons">
-        <div class="section-header reveal">
-            <h2 class="section-title">Why You Are The Woman For Me</h2>
-            <div class="section-divider">
-                <svg class="icon" width="22" height="22"><use href="#icon-rose"/></svg>
-                <svg class="icon icon-pulse" width="18" height="18"><use href="#icon-rose"/></svg>
-                <svg class="icon" width="22" height="22"><use href="#icon-rose"/></svg>
-            </div>
+    <!-- GALLERY -->
+    <section class="section gallery-section" id="memories">
+        <div class="section-intro reveal">
+            <span class="section-label">Captured moments</span>
+            <h2>Our Memories</h2>
+            <div class="gold-line"></div>
         </div>
-        <div class="reasons-grid">
-            <div class="reason-card reveal reveal-delay-1">
-                <div class="reason-photo-wrap">
-                    <img src="images/first date.jpeg" alt="Our first date" class="reason-photo">
-                </div>
-                <span class="reason-icon"><svg class="icon" width="32" height="32"><use href="#icon-heart-double"/></svg></span>
-                <h3>Your Heart</h3>
-                <p>You love with a depth I never knew was possible. The way you opened your heart to me — even when it was hard — changed my life forever.</p>
-            </div>
-            <div class="reason-card reveal reveal-delay-2">
-                <div class="reason-photo-wrap">
-                    <img src="images/park date.jpeg" alt="Our park date" class="reason-photo">
-                </div>
-                <span class="reason-icon"><svg class="icon" width="32" height="32"><use href="#icon-rose"/></svg></span>
-                <h3>Your Courage</h3>
-                <p>You found the courage to tell me you loved me, even when your heart was too full to keep it in. That bravery is one of the most beautiful things about you.</p>
-            </div>
-            <div class="reason-card reveal reveal-delay-3">
-                <div class="reason-photo-wrap">
-                    <img src="images/movie date.jpeg" alt="Our movie date" class="reason-photo">
-                </div>
-                <span class="reason-icon"><svg class="icon" width="32" height="32"><use href="#icon-sparkle"/></svg></span>
-                <h3>Your Honesty</h3>
-                <p>You are honest and sincere in everything you do. You told me about high school, about keeping my letter, about your fears — and that honesty made me love you even more.</p>
-            </div>
-            <div class="reason-card reveal reveal-delay-4">
-                <div class="reason-photo-wrap">
-                    <img src="images/beach date 2.jpeg" alt="Another beach date" class="reason-photo">
-                </div>
-                <span class="reason-icon"><svg class="icon" width="32" height="32"><use href="#icon-moon"/></svg></span>
-                <h3>Your Faith</h3>
-                <p>You thank God for our second chance, and so do I. You believe in us, in our future, and in the beautiful union God has blessed — and that faith carries me through everything.</p>
-            </div>
-            <div class="reason-card reveal reveal-delay-1">
-                <div class="reason-photo-wrap">
-                    <img src="images/friends wedding.jpeg" alt="At a friend's wedding" class="reason-photo">
-                </div>
-                <span class="reason-icon"><svg class="icon" width="32" height="32"><use href="#icon-home"/></svg></span>
-                <h3>My Home</h3>
-                <p>Home isn't a place for me anymore — it's wherever you are. With you, I've found where I belong. You are my safe place, my peace, my everything.</p>
-            </div>
-            <div class="reason-card reveal reveal-delay-2">
-                <div class="reason-photo-wrap">
-                    <img src="images/romantic kiss on the beach.jpeg" alt="Romantic kiss on the beach" class="reason-photo">
-                </div>
-                <span class="reason-icon"><svg class="icon" width="32" height="32"><use href="#icon-infinity"/></svg></span>
-                <h3>My Forever</h3>
-                <p>You see a future with only me in it — and I see the same. I want to grow with you, build with you, and choose you every single day for the rest of our lives.</p>
-            </div>
-        </div>
-    </section>
 
-    <section id="our-story">
-        <div class="section-header reveal">
-            <h2 class="section-title">Our Beautiful Journey</h2>
-            <div class="section-divider">
-                <svg class="icon" width="22" height="22"><use href="#icon-book"/></svg>
-                <svg class="icon icon-pulse" width="18" height="18"><use href="#icon-heart"/></svg>
-                <svg class="icon" width="22" height="22"><use href="#icon-book"/></svg>
-            </div>
-        </div>
-        <div class="timeline">
-            <div class="timeline-item reveal">
-                <span class="timeline-marker" aria-hidden="true"><svg class="icon" width="20" height="20"><use href="#icon-heart"/></svg></span>
-                <img src="images/first date.jpeg" alt="Where it all began again" class="timeline-photo">
-                <span class="date">High School</span>
-                <h4>A Love That Started Young</h4>
-                <p>Even back then, deep down, we both knew. You were afraid of the unknown and didn't feel good enough — but a part of you always knew you wanted me. And I never stopped caring.</p>
-            </div>
-            <div class="timeline-item reveal reveal-delay-1">
-                <span class="timeline-marker" aria-hidden="true"><svg class="icon" width="20" height="20"><use href="#icon-sparkle"/></svg></span>
-                <img src="images/park date.jpeg" alt="God's second chance" class="timeline-photo">
-                <span class="date">A Second Chance</span>
-                <h4>God Brought Us Back</h4>
-                <p>You kept my love letter because a part of you always hoped our paths would cross again. And they did. I thank God every day for giving us this beautiful second chance.</p>
-            </div>
-            <div class="timeline-item reveal reveal-delay-2">
-                <span class="timeline-marker" aria-hidden="true"><svg class="icon" width="20" height="20"><use href="#icon-kiss"/></svg></span>
-                <img src="images/movie date kiss.jpeg" alt="Our movie date" class="timeline-photo">
-                <span class="date">Our Movie Date</span>
-                <h4>When She Told Me She Loved Me</h4>
-                <p>You couldn't find the words in that moment — so you asked if you could kiss me instead, hoping your kiss would say everything. And then you told me: <em>"I love you, Elvis."</em> My heart has belonged to you ever since.</p>
-            </div>
-            <div class="timeline-item reveal reveal-delay-3">
-                <span class="timeline-marker" aria-hidden="true"><svg class="icon" width="20" height="20"><use href="#icon-heart-double"/></svg></span>
-                <img src="images/beach date.jpeg" alt="Building our future" class="timeline-photo">
-                <span class="date">Us, Today</span>
-                <h4>Partners In Every Way</h4>
-                <p>From friends to partners — you are my steady pillar, my best friend, my greatest love. We dream together, pray together, and choose each other every single day.</p>
-            </div>
-            <div class="timeline-item reveal reveal-delay-4">
-                <span class="timeline-marker" aria-hidden="true"><svg class="icon" width="20" height="20"><use href="#icon-ring"/></svg></span>
-                <img src="images/friends wedding.jpeg" alt="Our future ahead" class="timeline-photo">
-                <span class="date">Our Future</span>
-                <h4>Forever Starts With A Promise</h4>
-                <p>We dream of a future where we grow together, build together, and wake up beside each other every morning. I can't wait for the day the whole world knows — you are mine, and I am yours.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="memories">
-        <div class="section-header reveal">
-            <h2 class="section-title">Our Memories</h2>
-            <div class="section-divider">
-                <svg class="icon" width="22" height="22"><use href="#icon-camera"/></svg>
-                <svg class="icon icon-pulse" width="18" height="18"><use href="#icon-heart"/></svg>
-                <svg class="icon" width="22" height="22"><use href="#icon-camera"/></svg>
-            </div>
-            <p class="gallery-intro">Every moment with you is a treasure I hold close to my heart.</p>
-        </div>
-        <div class="photo-gallery">
-            <div class="gallery-item reveal reveal-delay-1">
-                <img src="images/first date.jpeg" alt="Our first date">
-                <span class="gallery-caption">Our First Date</span>
-            </div>
-            <div class="gallery-item reveal reveal-delay-2">
-                <img src="images/movie date.jpeg" alt="Movie date">
-                <span class="gallery-caption">Movie Date</span>
-            </div>
-            <div class="gallery-item gallery-featured reveal reveal-delay-3">
-                <img src="images/movie date kiss.jpeg" alt="Movie date kiss">
-                <span class="gallery-caption">That Kiss</span>
-            </div>
-            <div class="gallery-item reveal reveal-delay-1">
-                <img src="images/park date.jpeg" alt="Park date">
-                <span class="gallery-caption">Park Date</span>
-            </div>
-            <div class="gallery-item reveal reveal-delay-2">
-                <img src="images/beach date.jpeg" alt="Beach date">
-                <span class="gallery-caption">Beach Date</span>
-            </div>
-            <div class="gallery-item reveal reveal-delay-3">
-                <img src="images/beach date 2.jpeg" alt="Beach date 2">
-                <span class="gallery-caption">More Beach Days</span>
-            </div>
-            <div class="gallery-item gallery-featured reveal reveal-delay-1">
+        <div class="gallery">
+            <figure class="gallery-cell gallery-cell--tall reveal">
                 <img src="images/romantic kiss on the beach.jpeg" alt="Romantic kiss on the beach">
-                <span class="gallery-caption">Romantic Kiss On The Beach</span>
-            </div>
-            <div class="gallery-item reveal reveal-delay-2">
-                <img src="images/friends wedding.jpeg" alt="Friends wedding">
-                <span class="gallery-caption">Friend's Wedding</span>
-            </div>
+                <figcaption>Romantic kiss on the beach</figcaption>
+            </figure>
+            <figure class="gallery-cell reveal">
+                <img src="images/first date.jpeg" alt="First date">
+                <figcaption>Our first date</figcaption>
+            </figure>
+            <figure class="gallery-cell reveal">
+                <img src="images/movie date.jpeg" alt="Movie date">
+                <figcaption>Movie date</figcaption>
+            </figure>
+            <figure class="gallery-cell reveal">
+                <img src="images/movie date kiss.jpeg" alt="That kiss">
+                <figcaption>That kiss</figcaption>
+            </figure>
+            <figure class="gallery-cell gallery-cell--wide reveal">
+                <img src="images/beach date.jpeg" alt="Beach date">
+                <figcaption>Beach date</figcaption>
+            </figure>
+            <figure class="gallery-cell reveal">
+                <img src="images/park date.jpeg" alt="Park date">
+                <figcaption>Park date</figcaption>
+            </figure>
+            <figure class="gallery-cell reveal">
+                <img src="images/beach date 2.jpeg" alt="More beach days">
+                <figcaption>More beach days</figcaption>
+            </figure>
+            <figure class="gallery-cell reveal">
+                <img src="images/friends wedding.jpeg" alt="Friend's wedding">
+                <figcaption>Friend's wedding</figcaption>
+            </figure>
         </div>
     </section>
 
-    <section id="my-promise">
-        <div class="promise-bg-glow" aria-hidden="true"></div>
-        <div class="promise-content">
-            <div class="promise-icon-container" id="promise-icon-container">
-                <div class="promise-heart-ring" aria-hidden="true"></div>
-                <div class="promise-heart">
-                    <svg class="icon icon-promise" width="72" height="72"><use href="#icon-heart"/></svg>
-                </div>
+    <!-- PROMISE -->
+    <section class="promise-section" id="my-promise">
+        <div class="promise-inner">
+            <div class="section-intro reveal">
+                <span class="section-label section-label--light">My vow to you</span>
+                <h2 class="promise-heading">My Promise, Sharon</h2>
+                <div class="gold-line gold-line--light"></div>
             </div>
-            <h1 class="proposal-title reveal">My Promise To You, Sharon</h1>
-            <p class="proposal-subtitle reveal">The Woman Of My Dreams</p>
-            <p class="proposal-text reveal">
-                I am not asking you to marry me today — but I need you to know this with every beat of my heart:
+
+            <p class="promise-lead reveal">
+                I am not asking you to marry me today — but you need to know this with every beat of my heart:
                 <strong>you are the woman of my dreams, and I promise to marry you in the future.</strong>
             </p>
-            <div class="letter-container promise-letter reveal">
+
+            <div class="promise-letter reveal">
                 <div class="letter-text" id="typewriter-text"></div>
-                <div class="letter-signature">
-                    <span>— Forever Yours, Elvis</span>
-                    <svg class="icon" width="22" height="22"><use href="#icon-heart"/></svg>
-                </div>
+                <p class="letter-sign letter-sign--light">— Forever yours, Elvis</p>
             </div>
-            <button class="btn-proposal btn-glow reveal" id="promise-btn">
-                <span>I Promise You Forever</span>
-                <svg class="icon" width="20" height="20"><use href="#icon-infinity"/></svg>
-            </button>
+
+            <button class="btn-primary btn-primary--light reveal" id="promise-btn">I promise you forever</button>
         </div>
     </section>
 
-    <div class="modal-overlay" id="promise-modal">
-        <div class="modal-content">
-            <div class="big-heart">
-                <svg class="icon" width="72" height="72"><use href="#icon-heart"/></svg>
-            </div>
-            <h2>My Heart Is Yours</h2>
-            <p class="modal-message">
-                Sharon, you are the most beautiful blessing in my life.<br><br>
-                I promise to love you, cherish you, and stand by you through everything — today, tomorrow, and every day until I make you my wife.<br><br>
-                <strong>You are my forever. I love you endlessly.</strong><br><br>
-                Now come here and give me that hug!
-            </p>
-            <button class="btn-close-modal" id="close-modal-btn">
-                <span>Our Forever Starts Here</span>
-                <svg class="icon" width="18" height="18"><use href="#icon-heart-double"/></svg>
-            </button>
+    <div class="modal" id="promise-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-panel">
+            <svg class="modal-icon" width="40" height="40"><use href="#icon-heart"/></svg>
+            <h3>My heart is yours</h3>
+            <p>Sharon, you are the most beautiful blessing in my life. I promise to love you, cherish you, and stand by you — today, tomorrow, and every day until I make you my wife.</p>
+            <p class="modal-emphasis">You are my forever. I love you endlessly.</p>
+            <button class="btn-primary" id="close-modal-btn">Close</button>
         </div>
     </div>
 
-    <footer>
-        <div class="footer-flourish" aria-hidden="true">
-            <svg class="icon" width="16" height="16"><use href="#icon-rose"/></svg>
-            <svg class="icon" width="20" height="20"><use href="#icon-heart"/></svg>
-            <svg class="icon" width="16" height="16"><use href="#icon-rose"/></svg>
-        </div>
-        <p>Made with <span class="footer-heart"><svg class="icon" width="18" height="18"><use href="#icon-heart"/></svg></span> for Sharon — the most beautiful woman in the world.</p>
-        <p class="footer-script">I love you more than anything, my darling.</p>
-        <p class="footer-copy">&copy; Forever &amp; Always — Elvis &amp; Sharon</p>
+    <footer class="site-footer">
+        <p class="footer-mark">Elvis &amp; Sharon</p>
+        <p class="footer-note">Made with love, for the most beautiful woman in the world.</p>
+        <p class="footer-copy">&copy; Forever &amp; Always</p>
     </footer>
 
-    <script src="js/icons.js"></script>
     <script src="js/sharon.js"></script>
 </body>
 </html>
